@@ -1,0 +1,66 @@
+h2{
+    text-align: center;
+    color: #986868 !important;
+}
+
+nav{
+    background-color: #FA8072 !important;
+    border-color: #FA8072 !important;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #FA8072;
+    height: auto;
+    color: white;
+    text-align: center;
+  }
+
+  .container{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #FA8072;
+    margin: 150px 0 150px 0;
+    width: 50% !important;
+  }
+
+ .register{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #FA8072;
+    margin: 70px 0 70px 0;
+    width: 50% !important;
+  }
+
+  .btn-default {
+    color: #000 !important;
+    background-color: #FA8072 !important;
+    border-color: #ccc;
+}
+
+.btn-default:hover {
+    color: #fff !important;
+    background-color: #986868 !important;
+    border-color: #adadad;
+}
+
+  .navbar-inverse .navbar-nav>li>a {
+    color: black !important;
+}
+
+.navbar-inverse .navbar-brand {
+    color: black !important;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff !important;
+    background-color: #D2042D !important;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: #D2042D !important;
+}
+
+a{
+    color: #986868 !important;
+}
