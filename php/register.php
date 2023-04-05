@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
@@ -29,9 +28,9 @@
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
+              <li class="active"><a href="product.html">Home</a></li>
               <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Products <span class="caret"></span></a>
+                <a class="dropdown-toggle" data-toggle="dropdown" href="product.html">Products <span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li><a href="#">Helmets</a></li>
                   <li><a href="#">Jackets</a></li>
@@ -42,12 +41,13 @@
               <li><a href="#">All Order </a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-              <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+              <li><a href="register.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+              <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
             </ul>
           </div>
         </div>
       </nav>
+      
       
         
       <div class="container register">
@@ -56,13 +56,13 @@
             <div class="form-group">
                 <label class="control-label col-sm-2" for="firstname">First Name:</label>
                 <div class="col-sm-10">
-                  <input type="firstname" class="form-control" id="firstname" placeholder="Enter First Name" name="firstname">
+                  <input type="text" class="form-control" id="firstname" placeholder="Enter First Name" name="firstname">
                 </div>
               </div>
               <div class="form-group">
                 <label class="control-label col-sm-2" for="lastname">Last Name:</label>
                 <div class="col-sm-10">
-                  <input type="lastname" class="form-control" id="lastname" placeholder="Enter Last Name" name="lastname">
+                  <input type="text" class="form-control" id="lastname" placeholder="Enter Last Name" name="lastname">
                 </div>
               </div>
           <div class="form-group">
@@ -80,7 +80,7 @@
           <div class="form-group">
             <label class="control-label col-sm-2" for="repwd">Re-enter Password:</label>
             <div class="col-sm-10">          
-              <input type="repwd" class="form-control" id="repwd" placeholder="Re Enter password" name="repwd">
+              <input type="password" class="form-control" id="repwd" placeholder="Re Enter password" name="repwd">
             </div>
           </div>
           <div class="form-group">        

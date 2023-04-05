@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -29,9 +29,9 @@
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
+              <li class="active"><a href="product.php">Home</a></li>
               <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Products <span class="caret"></span></a>
+                <a class="dropdown-toggle" data-toggle="dropdown" href="product.php">Products <span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li><a href="#">Helmets</a></li>
                   <li><a href="#">Jackets</a></li>
@@ -42,12 +42,13 @@
               <li><a href="#">All Order </a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="register.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-              <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+              <li><a href="register.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+              <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
             </ul>
           </div>
         </div>
       </nav>
+      
       
         
       <div class="container">
@@ -80,7 +81,7 @@
 
           <div class="form-group">        
             <div class="col-sm-offset-2 col-sm-10">
-              <a href="register.html">Don't have an account? Register here. </a>
+              <a href="register.php">Don't have an account? Register here. </a>
             </div>
           </div>
 
@@ -94,6 +95,8 @@
       
     </body>
 </html>
+
+
 
 
 
